@@ -164,9 +164,6 @@ Healthcare Solutions, Cloud-Native Applications and AI-driven Development.
 
 <br>
 
-<a href="mailto:mdshahjahan2320@gmail.com" class="btn">Email Me</a>
-
-<a href="https://github.com/mdshahjahan2320" class="btn">GitHub</a>
 
 </div>
 </div>
