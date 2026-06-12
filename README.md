@@ -152,7 +152,6 @@ footer{
 <div class="container">
 <div class="profile-card">
 
-<img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Profile">
 
 <h1>Md Shahjahan</h1>
 
