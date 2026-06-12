@@ -1,193 +1,335 @@
-# Hi 👋, I'm Md Shahjahan
 
-### Senior Systems Engineer | .NET Full Stack Developer | Azure | Angular | React
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-🚀 Passionate .NET Full Stack Developer with 5+ years of experience building scalable enterprise applications, healthcare solutions, ERP systems, and cloud-native applications.
+<title>Md Shahjahan | .NET Full Stack Developer</title>
 
-📍 Bangalore, India
-📧 [mdshahjahan2320@gmail.com](mailto:mdshahjahan2320@gmail.com)
-📱 +91 7319642320
-💼 LinkedIn: linkedin.com/in/md-shahjahan
-🐙 GitHub: github.com/mdshahjahan2320
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
----
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
 
-## 👨‍💻 About Me
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+    color:white;
+}
 
-* 🔭 Currently working as **Senior Systems Engineer at Infosys Ltd**
-* 🏥 Contributing to **Molina Healthcare (USA)** healthcare solutions
-* 🌐 Experienced in designing and developing enterprise-grade web applications
-* ☁️ Skilled in Microsoft Azure Cloud Services and CI/CD pipelines
-* 🤖 Using Copilot, Generative AI, and Agentic AI in modern software development
-* 📚 Continuously learning Microservices, Cloud-Native Architecture, and AI Technologies
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
 
----
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
 
-## 🛠️ Tech Stack
+.profile-card{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(0,255,255,.2);
+}
 
-### Languages
+.profile-card img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+    margin-bottom:20px;
+}
 
-* C#
-* C
-* Python
-* SQL
-* JavaScript
-* HTML5
-* CSS3
+.profile-card h1{
+    font-size:3rem;
+    color:#38bdf8;
+}
 
-### Frontend
+.profile-card h3{
+    color:#cbd5e1;
+    margin:15px 0;
+}
 
-* Angular
-* React
-* Bootstrap
-* jQuery
-* Blazor
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin:10px;
+    border-radius:30px;
+    text-decoration:none;
+    color:white;
+    background:#38bdf8;
+    transition:.3s;
+}
 
-### Backend
+.btn:hover{
+    transform:translateY(-5px);
+    background:#0ea5e9;
+}
 
-* ASP.NET
-* ASP.NET MVC
-* .NET Core 8
-* ASP.NET Framework
-* Entity Framework
-* ADO.NET
-* REST APIs
-* Microservices
+section{
+    padding:80px 0;
+}
 
-### Database
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    color:#38bdf8;
+    margin-bottom:40px;
+}
 
-* SQL Server
-* PostgreSQL
-* DBMS
-* Stored Procedures
-* Functions
-* Triggers
-* Views
-* SSIS / SSRS
+.about{
+    text-align:center;
+    line-height:1.8;
+    max-width:900px;
+    margin:auto;
+}
 
-### Cloud & DevOps
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
 
-* Microsoft Azure
-* Azure Functions
-* Azure App Services
-* Azure Storage
-* Azure Data Factory
-* Azure DevOps
-* CI/CD Pipelines
-* Git
-* Jira
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:.3s;
+}
 
-### Tools
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #38bdf8;
+}
 
-* Visual Studio
-* VS Code
-* Swagger
-* Insomnia
-* SonarQube
-* Splunk
-* PyCharm
-* Jupyter Notebook
+.skill-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
 
-### AI Tools
+.experience-card,
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
 
-* GitHub Copilot
-* Generative AI
-* Agentic AI
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
 
----
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
 
-## 💼 Professional Experience
+.social a{
+    color:#38bdf8;
+    margin:10px;
+    text-decoration:none;
+    font-size:18px;
+}
+</style>
+</head>
 
-### Senior Systems Engineer
+<body>
 
-**Infosys Limited** | Aug 2022 – Present
+<header>
+<div class="container">
+<div class="profile-card">
 
-#### Molina Healthcare (USA)
+<img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Profile">
 
-* Developed and maintained healthcare applications for Medicaid, Medicare, and Marketplace programs.
-* Worked on Letter Management Systems and TCS configurations.
-* Built and maintained SSIS Packages and Wrapper APIs.
-* Monitored and resolved production issues using Splunk.
-* Managed CI/CD pipelines through Azure DevOps.
-* Implemented Azure Functions, Azure App Services, and Azure Data Factory solutions.
-* Collaborated in Agile development environments.
-* Leveraged Generative AI and Agentic AI to improve development productivity.
+<h1>Md Shahjahan</h1>
 
-### Web Developer
+<h3>.NET Full Stack Developer | Azure | Angular | React</h3>
 
-**DialUrSearch Pvt Ltd** | Apr 2021 – Jul 2022
+<p>
+5+ Years of Experience in Enterprise Application Development,
+Healthcare Solutions, Cloud-Native Applications and AI-driven Development.
+</p>
 
-* Developed School ERP and College ERP solutions.
-* Built Parent, Teacher, and Student portals.
-* Integrated Online Payment Gateway and POS Barcode systems.
-* Developed dynamic school and college websites.
-* Worked on E-Commerce and Hospital Management Systems.
-* Created Angular and React-based applications.
+<br>
 
----
+<a href="mailto:mdshahjahan2320@gmail.com" class="btn">Email Me</a>
 
-## 🚀 Featured Projects
+<a href="https://github.com/mdshahjahan2320" class="btn">GitHub</a>
 
-### Healthcare Letter Management System
+</div>
+</div>
+</header>
 
-* Enterprise healthcare communication platform.
-* Automated document generation and delivery.
-* HIPAA-compliant architecture.
-* Azure-based deployment.
+<section>
+<div class="container">
 
-### School ERP System
+<h2 class="section-title">About Me</h2>
 
-* Student Management
-* Attendance Tracking
-* Online Examination
-* Result Management
-* Payment Gateway Integration
+<div class="about">
 
-### Digital Expense Tracking
+<p>
+🚀 Senior Systems Engineer at Infosys with strong expertise in
+ASP.NET, .NET Core, Azure Cloud, Angular, React and SQL Server.
+</p>
 
-* Angular-based application
-* CRUD Operations
-* Real-time Dashboard
-* Expense Analytics
+<br>
 
-### Digital Task Management
+<p>
+🏥 Currently contributing to Molina Healthcare (USA) healthcare solutions.
+</p>
 
-* React-based application
-* Component-driven architecture
-* Scalable UI design
-* Performance optimization
+<br>
 
----
+<p>
+🤖 Passionate about Generative AI, Agentic AI, Cloud Technologies and Microservices.
+</p>
 
-## 🎓 Education
+</div>
 
-**Bachelor of Engineering (Computer Science & Engineering)**
+</div>
+</section>
 
-Corporate Institute of Science and Technology (CIST)
-RGPV University, Bhopal
+<section>
+<div class="container">
 
-🎯 CGPA: 8.67/10
+<h2 class="section-title">Technical Skills</h2>
 
----
+<div class="skills">
 
-## 📈 GitHub Stats
+<div class="skill-card">
+<h3>Languages</h3>
+<p>C#, Python, SQL, JavaScript, HTML, CSS</p>
+</div>
 
-```text
-💻 5+ Years Experience
-☁️ Azure Cloud Developer
-🏥 Healthcare Domain Expert
-🚀 Full Stack Engineer
-🤖 AI Enthusiast
-```
+<div class="skill-card">
+<h3>Frontend</h3>
+<p>Angular, React, Bootstrap, jQuery, Blazor</p>
+</div>
 
----
+<div class="skill-card">
+<h3>Backend</h3>
+<p>ASP.NET MVC, .NET Core 8, Entity Framework, APIs</p>
+</div>
 
-## 🤝 Connect With Me
+<div class="skill-card">
+<h3>Cloud & DevOps</h3>
+<p>Azure, Azure DevOps, CI/CD, Git, Docker</p>
+</div>
 
-* 📧 Email: [mdshahjahan2320@gmail.com](mailto:mdshahjahan2320@gmail.com)
-* 💼 LinkedIn: linkedin.com/in/md-shahjahan
-* 🐙 GitHub: github.com/mdshahjahan2320
+</div>
 
----
+</div>
+</section>
 
-⭐ If you like my work, consider following me and checking out my repositories!
+<section>
+<div class="container">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="experience-card">
+
+<h3>Senior Systems Engineer | Infosys</h3>
+
+<p>Aug 2022 - Present</p>
+
+<br>
+
+<ul>
+<li>Molina Healthcare Project</li>
+<li>Azure Functions & App Services</li>
+<li>CI/CD using Azure DevOps</li>
+<li>SSIS Packages & APIs</li>
+<li>Generative AI & Agentic AI</li>
+</ul>
+
+</div>
+
+<div class="experience-card">
+
+<h3>Web Developer | DialUrSearch Pvt Ltd</h3>
+
+<p>Apr 2021 - Jul 2022</p>
+
+<br>
+
+<ul>
+<li>School ERP Development</li>
+<li>Hospital Management System</li>
+<li>E-Commerce Applications</li>
+<li>Angular & React Projects</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Healthcare Letter Management</h3>
+<p>HIPAA compliant healthcare communication platform.</p>
+</div>
+
+<div class="project-card">
+<h3>School ERP</h3>
+<p>Student, Teacher and Parent Management System.</p>
+</div>
+
+<div class="project-card">
+<h3>Expense Tracking</h3>
+<p>Angular based expense management dashboard.</p>
+</div>
+
+<div class="project-card">
+<h3>Task Management</h3>
+<p>React based productivity platform.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+
+<h2>Connect With Me</h2>
+
+<div class="social">
+
+<a href="mailto:mdshahjahan2320@gmail.com">Email</a>
+
+<a href="https://github.com/mdshahjahan2320">GitHub</a>
+
+<a href="#">LinkedIn</a>
+
+</div>
+
+<br>
+
+<p>© 2026 Md Shahjahan | Built with ❤️ using HTML & CSS</p>
+
+</footer>
+
+</body>
+</html>
